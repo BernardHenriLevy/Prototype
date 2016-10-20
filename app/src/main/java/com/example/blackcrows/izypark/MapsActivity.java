@@ -1,5 +1,8 @@
 package com.example.blackcrows.izypark;
-
+/*
+Taf :
+Latitude longitude et nom markeur seront passés par parametre
+ */
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;

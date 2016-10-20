@@ -20,9 +20,10 @@ public class AfficherDetailsParking extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //Recupere l'interface
+
 
         Intent i = getIntent();
+
         setContentView(R.layout.activity_afficher_details_parking);
 
         carte =(Button) findViewById(R.id.detailParkingCarte);
